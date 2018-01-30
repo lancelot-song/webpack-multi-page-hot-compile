@@ -1,0 +1,253 @@
+@charset "utf-8";
+.banner-wrap{
+    position:relative;
+    width: 100%;
+}
+.banner-wrap .banner_big{
+    display: block;
+}
+/*每栏公用*/
+.content{
+    position:relative;
+}
+.content.gray-bg{
+    padding-bottom:50px;
+    background-color:#f6f6f6;
+    overflow: hidden;
+}
+.content.pb-70{
+    padding-bottom:70px;
+}
+.content-wrap{
+    position:relative;
+    margin:0 auto;
+    width: 1300px;
+    overflow: hidden;
+}
+.content-title{
+    position:relative;
+    margin:25px 0 0px;
+    padding-top:20px;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    color:#191919;
+    font:52px/54px "微软雅黑";
+    letter-spacing:4px;
+    overflow: hidden;
+}
+    .content-title .es{
+        display: block;
+        color:#929292;
+        font:normal 18px/40px "微软雅黑";
+        letter-spacing:2px;
+    }
+    .content-title .hr-left,.content-title .hr-right{
+        position:absolute;
+        left:50%;top:48px;
+        margin-left:-294px;
+        width: 166px;
+        height: 1px;
+        background-color:#191919;
+    }
+    .content-title .hr-left{
+        margin-left:128px;
+    }
+    .more-wrap{
+        margin-bottom:24px;
+        height: 1px;
+        border-bottom:1px solid #929292;
+        overflow: visible
+    }
+    .more-btn{
+        position:absolute;
+        right:0;top:-25px;
+        display: block;
+        width: 70px;
+        height: 26px;
+        color:#fff;
+        text-align: center;
+        background-color:#929292;
+        font-size:16px;
+        line-height:26px;
+        border-radius:10px 10px 0 0;
+        text-decoration: none;
+    }
+/*行业新闻*/
+.news-list-wrap{
+    margin-top:36px;
+    margin-bottom:36px;
+    text-align: center;
+}
+.news-list{
+    position:relative;
+    margin:0 5px 32px;
+    display: inline-block;
+    width: 310px;
+    text-decoration: none;
+    vertical-align: top;
+}
+.news-list-img{
+    position:relative;
+    margin-bottom:15px;
+    width: 310px;
+    height: 312px;
+    overflow: hidden;
+}
+.news-list-img img{
+    position:absolute;
+    top:0;left:0;
+    width: 310px;
+    height: auto;
+    min-height: 100%;
+}
+.news-list .icon-play{
+    position:absolute;
+    top:130px;
+    left:130px;
+    display: block;
+    width: 69px;
+    height: 69px;
+    background: url(../images/icon_sprites.png) -200px -400px no-repeat;
+}
+.news-list .title{
+    font-size:22px;
+    color:#272d3a;
+    text-align: left;
+}
+
+
+/*第三屏 旅游资源*/
+
+.lvyou-wrap{
+    display: block;
+    margin:0 auto 32px;
+    position:relative;
+    width: 866px;
+    height: 355px;
+    overflow: hidden;
+    text-decoration: none;
+}
+.lvyou-wrap.rt{
+    padding-right:434px;
+    text-align: left;
+}
+.lvyou-wrap.lt{
+    padding-left:434px;
+}
+.lvyou-wrap img{
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height:357px;
+}
+.lvyou-text{
+    position:absolute;
+    padding:0 40px;
+    top:0;
+    width: 354px;
+    height: 355px;
+}
+.lvyou-text.yellow{
+    right:0;
+    background-color:#f18733;
+}
+.lvyou-text.blue{
+    left:0;
+    background-color:#0088df;
+}
+.lvyou-text.green{
+    right:0;
+    background-color:#25dd62;
+}
+.lvyou-text .title{
+    margin:70px 0 40px;
+    font-size:30px;
+    text-align: center;
+}
+.lvyou-text .text{
+    font-size:18px;
+    line-height:34px;
+}
+.lvyou-text .icon{
+    position:absolute;
+    right:45px;
+    bottom:25px;
+    display: block;
+    width: 36px;
+    height: 36px;
+    background: url(../images/icon_sprites.png) -121px -478px no-repeat;
+}
+a.lvyou-wrap:link,a.lvyou-wrap:visited{
+    color:#fff;
+}
+/*第四屏 公益扶贫*/
+.media-wrap{
+    position:relative;
+    padding:0 0 0 740px;
+    width: 626px;
+    height: 440px;
+    overflow: hidden;
+    background-color:#fff;
+}
+.media-img-wrap{
+    position:absolute;
+    left:0;
+    top:0;
+    display: block;
+    width: 700px;
+    height: 440px;
+}
+.media-img-wrap img{
+    position:absolute;
+    top:0;left:0;
+    width: 100%;
+    height: auto;
+    min-height:440px;
+}
+.media-img-wrap .title{
+    position:absolute;
+    width: 100%;
+    height: 58px;
+    bottom:0;left:0;
+    background-color:#1d1d1d;
+    background-color:rgba(29,29,29,.8);
+    color:#fff;
+    font-size:24px;
+    line-height:58px;
+    text-indent: 15px;
+}
+.media-list{
+    position:relative;
+    margin:0;
+    padding:22px 0 22px 40px;
+    width: 525px;
+    font-size:20px;
+    border-bottom:1px dashed #000;
+}
+.media-list:last-child{
+    border-bottom:none;
+}
+.media-list-icon{
+    display: block;
+    position:absolute;
+    left:0px;top:22px;
+    width: 27px;
+    height: 27px;
+}
+.media-list a:link,.media-list a:visited{
+    color:#191919;
+    text-decoration: none;
+}
+.media-list a:hover{
+    color:#0e93e8;
+}
+.media-list-icon.hover{
+    background-position:0 -27px;
+}
+.mb-50{
+    margin-bottom:50px;
+}
+.mb-75{
+    margin-bottom:75px;
+}

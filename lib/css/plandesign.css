@@ -1,0 +1,262 @@
+@charset "utf-8";
+.banner-wrap{
+    position:relative;
+    width: 100%;
+}
+.banner-wrap .banner_big{
+    display: block;
+}
+/*每栏公用*/
+.content{
+    position:relative;
+}
+.content-wrap{
+    position:relative;
+    margin:0 auto;
+    width: 1300px;
+    overflow: hidden;
+}
+.content-wrap.intro-wrap{
+    height: 446px;
+}
+.content-wrap.feature-wrap{
+    margin:0 auto;
+    padding-left:4px;
+    width: 1192px;
+    height: 500px;
+    overflow: visible;
+/*    height: 640px;*/
+}
+.content-title{
+    position:relative;
+    margin:25px 0 0px;
+    padding-top:20px;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    color:#191919;
+    font:52px/54px "微软雅黑";
+    letter-spacing:4px;
+    overflow: hidden;
+}
+    .content-title .es{
+        display: block;
+        color:#929292;
+        font:normal 18px/40px "微软雅黑";
+        letter-spacing:2px;
+    }
+    .content-title .hr-left,.content-title .hr-right{
+        position:absolute;
+        left:50%;top:48px;
+        margin-left:-294px;
+        width: 166px;
+        height: 1px;
+        background-color:#191919;
+    }
+    .content-title .hr-left{
+        margin-left:128px;
+    }
+    .content-title-info{
+        width: 1116px;
+        margin: 5px auto 90px;
+        font-size: 18px;
+        line-height: 36px;
+        color: #111;
+    }
+    .content-title-info div,.content-title-info p,.content-title-info span{
+        font-size:18px;
+        line-height:36px;
+    }
+    .content-title-info em{
+        font-style:italic;
+    }
+    .content-title-info strong{
+        font-weight:700;
+    }
+    .content-title.white{
+        margin-top:0;
+        width: 100%;
+        height:140px;
+        color:#fff;
+        z-index: 100;
+    }
+    .content-title.white .es{
+        color:#fff;
+    }
+    .content-title.white .hr-left,.content-title.white .hr-right{
+        background-color:#fff;
+    }
+.more-wrap {
+    margin-bottom: 46px;
+    height: 1px;
+    border-bottom: 1px solid #929292;
+    overflow: visible
+}
+
+.more-btn {
+    position: absolute;
+    right: 0;
+    top: -25px;
+    width: 70px;
+    height: 26px;
+    color: #fff;
+    text-align: center;
+    background-color: #929292;
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 10px 10px 0 0
+}
+
+/* 第二屏 服务介绍 */
+.service-intro-wrap{
+    position:absolute;
+    top:0;left:-20px;
+    width:1406px; 
+    overflow: hidden;
+}
+.service-intro-list{
+    position:relative;
+    float: left;
+    margin:0 20px;
+    width: 426px;
+    height: 256px;
+    overflow: hidden;
+}
+.service-intro-list img{
+    position:absolute;
+    left:0;top:0;
+    width: 100%;
+    height: auto;
+    min-height:256px;
+}
+/*第三屏 服务特点*/
+.content.feature-bg{
+    padding:30px 0 96px;
+    background:#4373a0 url(../images/plan_bg.jpg) center 0 no-repeat;
+}
+#feature_slider{
+    overflow: hidden;
+}
+.feature-list-wrap{
+    position:relative;
+    float: left;
+    width: 1196px;
+    overflow: hidden;
+    z-index: 50;
+}
+.feature-list{
+    display: block;
+    position:relative;
+    margin:0 7px;
+    width: 382px;
+    height: 466px;
+    overflow: hidden;
+    text-decoration: none;
+}
+.feature-list img{
+    position:absolute;
+    left:0;top:0;
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height:466px;
+}
+.feature-title{
+    position:absolute;
+    left:0;bottom:0;
+    width: 382px;
+    height: 80px;
+    line-height:80px;
+    text-align: center;
+    font-size:30px;
+    color:#fff;
+    background-color:#1d1d1d;
+    background-color:rgba(29,29,29,.9);
+    z-index: 55;
+}
+.feature-text{
+    display: none;
+    position:absolute;
+    top:0;left:0px;
+    width: 382px;
+    height: 466px;
+    bottom:0px;
+    background-color:#1d1d1d;
+    background-color:rgba(29,29,29,.6);
+    z-index: 50;
+}
+.feature-text p{
+    display: table-cell;
+    padding:0 34px;
+    width: 314px;
+    vertical-align: middle;
+    color:#cfcfcf;
+    font-size:20px;
+    line-height:34px;
+    text-indent: 40px;
+}
+.feature-list:hover .feature-title{
+    display: block;
+    background-color:#18a9eb;
+    background-color:rgba(24,169,235,.9);
+}
+.feature-list:hover .feature-text{
+    display: table;
+}
+/*第四屏 经典案例*/
+.case-list-wrap{
+    margin:20px auto 70px;
+    width: 1300px;
+    height: 510px;
+}
+.case-list{
+    display: block;
+    position:absolute;
+    left:0;top:0;
+    width: 860px;
+    height: 510px;
+    box-shadow:10px 0 40px rgba(26,26,26,.4);
+    overflow: hidden;
+    text-decoration: none;
+}
+    .case-list-01{
+        left:0;
+        z-index: 100;
+    }
+    .case-list-02{
+        left:146px;
+        z-index: 90;
+    }
+    .case-list-03{
+        left:292px;
+        z-index: 80;
+    }
+    .case-list-04{
+        left:438px;
+        z-index: 70;
+    }
+.case-list .img{
+    position:absolute;
+    left: 0;top:0;
+    width: 860px;
+    height: auto;
+    min-height:510px;
+}
+.case-list .title{
+    position:absolute;
+    left:0;bottom:0;
+    text-align: center;
+    width: 860px;
+    height: 80px;
+    line-height:80px;
+    color:#fff;
+    font-size:24px;
+    background-color:#1a1a1a;
+    background-color:rgba(26,26,26,.8);
+}
+.mb-50{
+    margin-bottom:50px;
+}
+.mb-75{
+    margin-bottom:75px;
+}
